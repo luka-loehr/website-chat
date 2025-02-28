@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Website Analyzer</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container privacy-container">
+        <div class="logo-container">
+            <i class="fas fa-shield-alt logo-icon"></i>
+        </div>
+        
+        <h1>Privacy Policy</h1>
+        
+        <div class="privacy-content">
+            <p class="developer-intro">Welcome to Website Analyzer. Here's everything important about data privacy in this application.</p>
+            
+            <div class="privacy-points">
+                <div class="privacy-point">
+                    <div class="point-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="point-text">
+                        <p>We store analyzed website data and optional email for notifications on Vercel servers.</p>
+                    </div>
+                </div>
+                
+                <div class="privacy-point">
+                    <div class="point-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="point-text">
+                        <p>This application uses OpenAI's API for website analysis. Chat conversations may be processed by OpenAI.</p>
+                    </div>
+                </div>
+                
+                <div class="privacy-point">
+                    <div class="point-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="point-text">
+                        <p>Vercel may collect technical data such as IP addresses and usage statistics.</p>
+                    </div>
+                </div>
+                
+                <div class="privacy-point">
+                    <div class="point-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <div class="point-text">
+                        <p>Authentication data is stored locally on your device and not shared with third parties.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="privacy-more">
+                <a href="https://vercel.com/legal/privacy-policy" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> More info at Vercel
+                </a>
+                <a href="https://openai.com/policies/privacy-policy" target="_blank" class="ml-2">
+                    <i class="fas fa-external-link-alt"></i> OpenAI Privacy Policy
+                </a>
+            </div>
+        </div>
+        
+        <button id="acceptPrivacy" class="accept-button">
+            <span class="button-text">I understand and accept</span>
+            <span class="button-icon"><i class="fas fa-check"></i></span>
+        </button>
+    </div>
+
+    <script src="js/privacy.js"></script>
+</body>
+</html>
